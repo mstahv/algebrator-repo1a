@@ -128,55 +128,55 @@ public class AlgebratorUI extends VerticalLayout {
         String buttonText = button.getText();
         switch (buttonText) {
             case "H" ->
-                button.setTooltipText("History");
+                button.getElement().setAttribute("title", "History");
             case "Solve" ->
-                button.setTooltipText("Solve or Calculate");
+                button.getElement().setAttribute("title", "Solve or Calculate");
             case "," ->
-                button.setTooltipText("Separate (In-)Equations");
+                button.getElement().setAttribute("title", "Separate (In-)Equations");
             case "←" ->
-                button.setTooltipText("Backspace");
+                button.getElement().setAttribute("title", "Backspace");
             case "C" ->
-                button.setTooltipText("Clear");
+                button.getElement().setAttribute("title", "Clear");
             case "+/-" ->
-                button.setTooltipText("Negation");
+                button.getElement().setAttribute("title", "Negation");
             case "0" ->
-                button.setTooltipText("Zero");
+                button.getElement().setAttribute("title", "Zero");
             case "." ->
-                button.setTooltipText("Decimal Point");
+                button.getElement().setAttribute("title", "Decimal Point");
             case "==" ->
-                button.setTooltipText("Equals");
+                button.getElement().setAttribute("title", "Equals");
             case "!=" ->
-                button.setTooltipText("Not Equals");
+                button.getElement().setAttribute("title", "Not Equals");
             case "<" ->
-                button.setTooltipText("Less Than");
+                button.getElement().setAttribute("title", "Less Than");
             case "<=" ->
-                button.setTooltipText("Less Than or Equals");
+                button.getElement().setAttribute("title", "Less Than or Equals");
             case ">" ->
-                button.setTooltipText("Greater Than");
+                button.getElement().setAttribute("title", "Greater Than");
             case ">=" ->
-                button.setTooltipText("Greater Than or Equals");
+                button.getElement().setAttribute("title", "Greater Than or Equals");
             case "+" ->
-                button.setTooltipText("Plus");
+                button.getElement().setAttribute("title", "Plus");
             case "-" ->
-                button.setTooltipText("Minus");
+                button.getElement().setAttribute("title", "Minus");
             case "*" ->
-                button.setTooltipText("Times");
+                button.getElement().setAttribute("title", "Times");
             case "/" ->
-                button.setTooltipText("Divided by");
+                button.getElement().setAttribute("title", "Divided by");
             case "2√" ->
-                button.setTooltipText("Square Root");
+                button.getElement().setAttribute("title", "Square Root");
             case "3√" ->
-                button.setTooltipText("Cube Root");
+                button.getElement().setAttribute("title", "Cube Root");
             case "√" ->
-                button.setTooltipText("Root");
+                button.getElement().setAttribute("title", "Root");
             case "^2" ->
-                button.setTooltipText("Square");
+                button.getElement().setAttribute("title", "Square");
             case "^3" ->
-                button.setTooltipText("Cube");
+                button.getElement().setAttribute("title", "Cube");
             case "^" ->
-                button.setTooltipText("Power");
+                button.getElement().setAttribute("title", "Power");
             default ->
-                button.setTooltipText(buttonText); // Default tooltip shows the button's label
+                button.getElement().setAttribute("title", buttonText); // Default tooltip shows the button's label
         }
 
     }
