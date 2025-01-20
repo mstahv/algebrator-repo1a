@@ -81,6 +81,15 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
+            <plugin>
+                <groupId>com.vaadin</groupId>
+                <artifactId>vaadin-maven-plugin</artifactId>
+                <version>23.2.7</version>
+                <configuration>
+                    <productionMode>true</productionMode>
+                    <skipFrontendBuild>true</skipFrontendBuild>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 
