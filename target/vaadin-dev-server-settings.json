@@ -1,0 +1,17 @@
+{
+  "frontendFolder": "C:/Users/quizz/Documents/GitHub/QuizProjs/algebrator/./src/main/frontend",
+  "themeFolder": "themes",
+  "themeResourceFolder": "C:/Users/quizz/Documents/GitHub/QuizProjs/algebrator/./src/main/frontend/generated/jar-resources",
+  "staticOutput": "C:/Users/quizz/Documents/GitHub/QuizProjs/algebrator/target/classes/META-INF/VAADIN/webapp/VAADIN/static",
+  "generatedFolder": "generated",
+  "statsOutput": "C:\\Users\\quizz\\Documents\\GitHub\\QuizProjs\\algebrator\\target\\classes\\META-INF\\VAADIN\\config",
+  "frontendBundleOutput": "C:\\Users\\quizz\\Documents\\GitHub\\QuizProjs\\algebrator\\target\\classes\\META-INF\\VAADIN\\webapp",
+  "devBundleOutput": "C:/Users/quizz/Documents/GitHub/QuizProjs/algebrator/target/dev-bundle/webapp",
+  "devBundleStatsOutput": "C:/Users/quizz/Documents/GitHub/QuizProjs/algebrator/target/dev-bundle/config",
+  "jarResourcesFolder": "C:/Users/quizz/Documents/GitHub/QuizProjs/algebrator/./src/main/frontend/generated/jar-resources",
+  "themeName": "",
+  "clientServiceWorkerSource": "C:\\Users\\quizz\\Documents\\GitHub\\QuizProjs\\algebrator\\target\\sw.ts",
+  "pwaEnabled": false,
+  "offlineEnabled": false,
+  "offlinePath": "'offline.html'"
+}

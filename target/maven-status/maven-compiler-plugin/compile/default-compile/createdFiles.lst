@@ -1,0 +1,4 @@
+com\quizlabs\algebrator\ServletInitializer.class
+com\quizlabs\algebrator\AlgebratorApplication.class
+com\quizlabs\algebrator\CalculatorBackend.class
+com\quizlabs\algebrator\AlgebratorUI.class
